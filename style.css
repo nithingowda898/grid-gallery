@@ -34,7 +34,7 @@ body{
 .box.two{
 	grid-column: span 2;
 	grid-row: span 2;
-	background-image: url(img/2.JPG);
+	background-image: url(img/2.jpg);
 }
 .box.three{
 	grid-column: 1 / span 2;
@@ -54,5 +54,5 @@ body{
 .box.six{
 	grid-column: span 3;
 	grid-row: span 2;
-	background-image: url(img/6.JPG);
+	background-image: url(img/6.jpg);
 }
