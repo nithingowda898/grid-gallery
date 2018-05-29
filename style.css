@@ -20,7 +20,7 @@ body{
 	grid-template-rows: repeat(6, 1fr);
 }
 .box{
-	background-color: #2ad8f2;
+	
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
