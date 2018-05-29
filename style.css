@@ -1,0 +1,58 @@
+*,*::before,*::after{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #262626;
+	font-family: 'Bariol';
+	font-size: 16px;
+}
+.wrapper{
+	display: grid;
+	background-color: #fff;
+	width: 900px;
+	max-width: 100%;
+	height: 90vh;
+	margin: 30px auto;
+	grid-gap: 5px;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(6, 1fr);
+}
+.box{
+	background-color: #2ad8f2;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.box.one{
+	grid-column: span 3;
+	grid-row: span 3;
+	background-image: url(img/1.JPG);
+	
+}
+.box.two{
+	grid-column: span 2;
+	grid-row: span 2;
+	background-image: url(img/2.JPG);
+}
+.box.three{
+	grid-column: 1 / span 2;
+	grid-row: 4 / span 3;
+	background-image: url(img/3.JPG);
+}
+.box.four{
+	grid-column: 3 / span 1;
+	grid-row: 4 / span 1;
+	background-image: url(img/4.JPG);
+}
+.box.five{
+	grid-column: 4 / span 2;
+	grid-row: 3 / span 2;
+	background-image: url(img/5.JPG);
+}
+.box.six{
+	grid-column: span 3;
+	grid-row: span 2;
+	background-image: url(img/6.JPG);
+}
