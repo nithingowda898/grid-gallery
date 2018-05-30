@@ -7,7 +7,7 @@
 </head>
 <body>
 	<div class="wrapper">
-		<div class="box one">1</div>
+		<div class="box one"><a href="img/6.jpg"></div></a>
 		<div class="box two">2</div>
 		<div class="box three">3</div>
 		<div class="box four">4</div>
